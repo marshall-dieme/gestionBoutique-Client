@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/BoutiqueWin.Model" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/BoutiqueWin.Model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfCategorie">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Categorie" nillable="true" type="tns:Categorie" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCategorie" nillable="true" type="tns:ArrayOfCategorie" />
+  <xs:complexType name="Categorie">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CodeCategorie" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Denomination" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Categorie" nillable="true" type="tns:Categorie" />
+  <xs:complexType name="Produit">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CodeProduit" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DesignationProduit" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IdCategorie" type="xs:int" />
+      <xs:element minOccurs="0" name="IdUnite" type="xs:int" />
+      <xs:element minOccurs="0" name="Image" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrixUnitaire" type="xs:int" />
+      <xs:element minOccurs="0" name="Quantite" type="xs:int" />
+      <xs:element minOccurs="0" name="QuantiteMinimale" type="xs:int" />
+      <xs:element minOccurs="0" name="QuantiteQritique" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Produit" nillable="true" type="tns:Produit" />
+  <xs:complexType name="ArrayOfProduitViewModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ProduitViewModel" nillable="true" type="tns:ProduitViewModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfProduitViewModel" nillable="true" type="tns:ArrayOfProduitViewModel" />
+  <xs:complexType name="ProduitViewModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Categorie" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CodeProduit" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DesignationProduit" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Pu" type="xs:int" />
+      <xs:element minOccurs="0" name="Quantite" type="xs:int" />
+      <xs:element minOccurs="0" name="QuantiteMinimale" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="QuantiteQritique" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProduitViewModel" nillable="true" type="tns:ProduitViewModel" />
+  <xs:complexType name="ArrayOfStockViewModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="StockViewModel" nillable="true" type="tns:StockViewModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfStockViewModel" nillable="true" type="tns:ArrayOfStockViewModel" />
+  <xs:complexType name="StockViewModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Numero" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrixUnitaire" type="xs:int" />
+      <xs:element minOccurs="0" name="Produit" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Quantite" type="xs:int" />
+      <xs:element minOccurs="0" name="Total" type="xs:int" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="StockViewModel" nillable="true" type="tns:StockViewModel" />
+  <xs:complexType name="Stock">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Date" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IdProduit" type="xs:int" />
+      <xs:element minOccurs="0" name="Numero" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrixUnitaire" type="xs:int" />
+      <xs:element minOccurs="0" name="Quantite" type="xs:int" />
+      <xs:element minOccurs="0" name="Total" type="xs:int" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Stock" nillable="true" type="tns:Stock" />
+  <xs:complexType name="ArrayOfUnite">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Unite" nillable="true" type="tns:Unite" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUnite" nillable="true" type="tns:ArrayOfUnite" />
+  <xs:complexType name="Unite">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="libelle" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Unite" nillable="true" type="tns:Unite" />
+</xs:schema>

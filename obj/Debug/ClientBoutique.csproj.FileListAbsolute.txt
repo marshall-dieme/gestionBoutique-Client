@@ -1,0 +1,17 @@
+C:\Users\Marshall\source\repos\ClientBoutique\bin\Debug\ClientBoutique.exe.config
+C:\Users\Marshall\source\repos\ClientBoutique\bin\Debug\ClientBoutique.exe
+C:\Users\Marshall\source\repos\ClientBoutique\bin\Debug\ClientBoutique.pdb
+C:\Users\Marshall\source\repos\ClientBoutique\obj\Debug\ClientBoutique.Properties.Resources.resources
+C:\Users\Marshall\source\repos\ClientBoutique\obj\Debug\ClientBoutique.csproj.GenerateResource.cache
+C:\Users\Marshall\source\repos\ClientBoutique\obj\Debug\ClientBoutique.csproj.CoreCompileInputs.cache
+C:\Users\Marshall\source\repos\ClientBoutique\obj\Debug\ClientBoutique.exe
+C:\Users\Marshall\source\repos\ClientBoutique\obj\Debug\ClientBoutique.pdb
+C:\Users\Marshall\source\repos\ClientBoutique\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Marshall\source\repos\ClientBoutique\obj\Debug\ClientBoutique.MainForm.resources
+C:\Users\Marshall\source\repos\ClientBoutique\obj\Debug\ClientBoutique.csproj.CopyComplete
+C:\Users\Marshall\source\repos\ClientBoutique\obj\Debug\ClientBoutique.Forms.frmCategorie.resources
+C:\Users\Marshall\source\repos\ClientBoutique\bin\Debug\Guna.UI2.dll
+C:\Users\Marshall\source\repos\ClientBoutique\obj\Debug\ClientBoutique.Forms.frmProduit.resources
+C:\Users\Marshall\source\repos\ClientBoutique\obj\Debug\ClientBoutique.Forms.frmAppro.resources
+C:\Users\Marshall\source\repos\ClientBoutique\obj\Debug\ClientBoutique.csproj.ResolveComReference.cache
+C:\Users\Marshall\source\repos\ClientBoutique\obj\Debug\ClientBoutique.csprojAssemblyReference.cache
